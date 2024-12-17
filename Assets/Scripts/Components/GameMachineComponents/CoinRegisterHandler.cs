@@ -21,8 +21,8 @@ namespace Components.GameMachineComponents
 
         private void Update()
         {
-            if (!IsCoinThrown && _objectsHandler._objectTransform != null &&
-                _objectsHandler._objectTransform.gameObject.name == gameObject.name && _actionText.IsTextShown &&
+            if (!IsCoinThrown && _objectsHandler.ObjectTransform != null &&
+                _objectsHandler.ObjectTransform.gameObject.name == gameObject.name && _actionText.IsTextShown &&
                 Input.GetKeyDown(KeyCode.F))
             {
                 IsCoinThrown = true;

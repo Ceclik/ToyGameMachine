@@ -24,6 +24,12 @@ namespace Components.CharacterComponents
             _actionTextHandler.ShowHandleMoveText(actionText, isInHandleMode);
         }
 
+        public void ShowPlayButtonText()
+        {
+            IsTextShown = true;
+            _actionTextHandler.ShowButtonText(actionText);
+        }
+
         public void ShowThrowCoinText()
         {
             IsTextShown = true;

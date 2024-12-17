@@ -11,7 +11,7 @@ namespace Components.CharacterComponents
         [SerializeField] private float rayDistanceToFindObjects;
         
         private IObjectsFinder _objectsFinder;
-        public Transform _objectTransform { get; private set; }
+        public Transform ObjectTransform { get; private set; }
 
         private ActionTextHandler _actionText;
 
@@ -23,33 +23,40 @@ namespace Components.CharacterComponents
 
         private void Update()
         {
-            if (_objectTransform == null &&
+            if (ObjectTransform == null &&
                 _objectsFinder.FindObject(Camera.main, rayDistanceToFindObjects, out Transform foundObject))
             {
-                _objectTransform = foundObject;
+                ObjectTransform = foundObject;
                 Debug.Log($"Object {foundObject.gameObject.name} has been found");
             }
-            else if (_objectTransform != null &&
+            else if (ObjectTransform != null &&
                      !_objectsFinder.FindObject(Camera.main, rayDistanceToFindObjects, out Transform foundObject1))
             {
-                _objectTransform = null;
+                ObjectTransform = null;
             }
 
-            if (_objectTransform != null && !_actionText.IsTextShown)
+            if (ObjectTransform != null && !_actionText.IsTextShown)
             {
-                if (_objectTransform.TryGetComponent(out CoinRegisterHandler coinRegisterHandler) &&
+                if (ObjectTransform.TryGetComponent(out CoinRegisterHandler coinRegisterHandler) &&
                     !coinRegisterHandler.IsCoinThrown)
                 {
                     Debug.Log("Showing action Text");
                     _actionText.ShowThrowCoinText();
                 }
-                else if (_objectTransform.TryGetComponent(out HandleHandler handle))
+                else if (ObjectTransform.TryGetComponent(out HandleHandler handle))
                 {
                     Debug.Log("Showing action Text");
                     _actionText.ShowHandleMoveText(handle.IsInPlayMode);
                 }
+                else if (ObjectTransform.TryGetComponent(out ActionButtonHandler button))
+                {
+                    Debug.Log("Showing action Text");
+                    if(!button.IsMoving)
+                        _actionText.ShowPlayButtonText();
+                    else _actionText.HideActionText();
+                }
             }
-            else if(_objectTransform == null && _actionText.IsTextShown)
+            else if(ObjectTransform == null && _actionText.IsTextShown)
             {
                 Debug.Log("Hiding Action Text");
                 _actionText.HideActionText();

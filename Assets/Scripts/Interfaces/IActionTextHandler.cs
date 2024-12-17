@@ -7,5 +7,7 @@ namespace Interfaces
         public void ShowThrowCoinText(TextMeshProUGUI actionText);
 
         public void ShowHandleMoveText(TextMeshProUGUI actionText, bool isInHandleMode);
+
+        public void ShowButtonText(TextMeshProUGUI actionText);
     }
 }

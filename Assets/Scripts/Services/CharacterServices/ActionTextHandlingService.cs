@@ -24,5 +24,11 @@ namespace Services.CharacterServices
                 actionText.gameObject.SetActive(true);
             }
         }
+
+        public void ShowButtonText(TextMeshProUGUI actionText)
+        {
+            actionText.text = "Press 'F' to click pick button";
+            actionText.gameObject.SetActive(true);
+        }
     }
 }

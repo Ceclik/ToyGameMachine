@@ -1,4 +1,6 @@
 ﻿using Components.CharacterComponents;
+using Interfaces;
+using Services.GameMachineServices;
 using UnityEngine;
 
 namespace Components.GameMachineComponents
@@ -7,15 +9,22 @@ namespace Components.GameMachineComponents
     {
         public bool IsInPlayMode { get; private set; }
         private ActionTextHandler _actionText;
+        private IHandleMover _handleMover;
 
         private void Start()
         {
+            _handleMover = new HandleMovingService();
             GameObject character = GameObject.FindGameObjectWithTag("Player");
             _actionText = character.GetComponent<ActionTextHandler>();
         }
 
         private void Update()
         {
+            if (IsInPlayMode)
+            {
+                _handleMover.MoveHandler(transform);
+            }
+            
             if (!IsInPlayMode && Input.GetKeyDown(KeyCode.Mouse0) && _actionText.IsTextShown)
             {
                 IsInPlayMode = true;

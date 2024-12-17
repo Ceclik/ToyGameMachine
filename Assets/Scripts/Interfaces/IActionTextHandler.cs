@@ -4,8 +4,8 @@ namespace Interfaces
 {
     public interface IActionTextHandler
     {
-        public void HandleActionText(TextMeshProUGUI actionText, bool isObjectPicked);
         public void ShowThrowCoinText(TextMeshProUGUI actionText);
-        public void ShowCashRegisterText(TextMeshProUGUI actionText, bool isOpened);
+
+        public void ShowHandleMoveText(TextMeshProUGUI actionText, bool isInHandleMode);
     }
 }

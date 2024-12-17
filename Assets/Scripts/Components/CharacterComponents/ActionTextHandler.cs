@@ -18,10 +18,10 @@ namespace Components.CharacterComponents
             _actionTextHandler = new ActionTextHandlingService();
         }
 
-        public void ShowActionText(bool isObjectPicked)
+        public void ShowHandleMoveText(bool isInHandleMode)
         {
-            _actionTextHandler.HandleActionText(actionText, isObjectPicked);
             IsTextShown = true;
+            _actionTextHandler.ShowHandleMoveText(actionText, isInHandleMode);
         }
 
         public void ShowThrowCoinText()

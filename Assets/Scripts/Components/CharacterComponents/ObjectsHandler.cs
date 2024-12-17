@@ -43,6 +43,11 @@ namespace Components.CharacterComponents
                     Debug.Log("Showing action Text");
                     _actionText.ShowThrowCoinText();
                 }
+                else if (_objectTransform.TryGetComponent(out HandleHandler handle))
+                {
+                    Debug.Log("Showing action Text");
+                    _actionText.ShowHandleMoveText(handle.IsInPlayMode);
+                }
             }
             else if(_objectTransform == null && _actionText.IsTextShown)
             {

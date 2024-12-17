@@ -6,6 +6,9 @@ TagManager:
   tags:
   - GameMachineFloor
   - WinFloor
+  - CoinChecker
+  - Handle
+  - Button
   layers:
   - Default
   - TransparentFX

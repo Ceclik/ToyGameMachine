@@ -12,6 +12,7 @@ namespace Components.GameMachineComponents
 
         private ObjectsHandler _objectsHandler;
         private ActionTextHandler _actionText;
+        private CoinRegisterHandler _coinRegister;
 
         public delegate void HandleActionButton();
         public event HandleActionButton OnActionButtonClick;
@@ -21,6 +22,7 @@ namespace Components.GameMachineComponents
             GameObject character = GameObject.FindGameObjectWithTag("Player");
             _objectsHandler = character.GetComponent<ObjectsHandler>();
             _actionText = character.GetComponent<ActionTextHandler>();
+            _coinRegister = GameObject.FindGameObjectWithTag("CoinChecker").GetComponent<CoinRegisterHandler>();
         }
 
         public bool IsMoving { get; private set; }
@@ -29,7 +31,7 @@ namespace Components.GameMachineComponents
         private void Update()
         {
             if (_actionText.IsTextShown && _objectsHandler.ObjectTransform.name == gameObject.name &&
-                Input.GetKeyDown(KeyCode.F) && !IsMoving)
+                Input.GetKeyDown(KeyCode.F) && !IsMoving && _coinRegister.IsCoinThrown)
             {
                 IsMoving = true;
                 actionButtonLight.enabled = true;

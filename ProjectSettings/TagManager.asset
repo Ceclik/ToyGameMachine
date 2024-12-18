@@ -9,6 +9,8 @@ TagManager:
   - CoinChecker
   - Handle
   - Button
+  - Toy
+  - Claw
   layers:
   - Default
   - TransparentFX

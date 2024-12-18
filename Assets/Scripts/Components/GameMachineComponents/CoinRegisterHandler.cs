@@ -5,7 +5,7 @@ namespace Components.GameMachineComponents
 {
     public class CoinRegisterHandler : MonoBehaviour
     {
-        public bool IsCoinThrown { get; private set; }
+        public bool IsCoinThrown { get; set; }
         private ObjectsHandler _objectsHandler;
         private ActionTextHandler _actionText;
         

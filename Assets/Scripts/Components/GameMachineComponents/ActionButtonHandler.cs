@@ -14,7 +14,6 @@ namespace Components.GameMachineComponents
         private ActionTextHandler _actionText;
 
         public delegate void HandleActionButton();
-
         public event HandleActionButton OnActionButtonClick;
 
         private void Start()

@@ -5905,7 +5905,7 @@ Transform:
   m_GameObject: {fileID: 1607322310}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.12, y: 12.49, z: 1.9}
+  m_LocalPosition: {x: 2.12, y: 12.49, z: 1.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5925,10 +5925,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movingSpeed: 3
+  fallingSpeed: 6
+  lowPositionStayingDelay: 0.7
   minXValue: -2.22
   maxXValue: 2.12
   minZValue: -1.9
   maxZValue: 2.09
+  maxYPosition: 12.47
+  minYPosition: 7
 --- !u!4 &1634749144 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3722487300629072141, guid: 7def7532f21db6943a22d1398585418a, type: 3}

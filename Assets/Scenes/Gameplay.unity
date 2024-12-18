@@ -4129,7 +4129,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 963194227}
-  m_PlaneDistance: 3
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -6659,6 +6659,7 @@ MonoBehaviour:
   maxYPosition: 12.47
   minYPosition: 7
   clawBasePoint: {fileID: 1889209516}
+  dropChance: 0.6
 --- !u!65 &1607322313
 BoxCollider:
   m_ObjectHideFlags: 0

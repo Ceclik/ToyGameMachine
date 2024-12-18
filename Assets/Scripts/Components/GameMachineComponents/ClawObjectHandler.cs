@@ -40,20 +40,25 @@ namespace Components.GameMachineComponents
             {
                 Debug.Log("Claw is arrived");
                 IsCatched = false;
-                //_mover.HasFallen = false;
-                GetComponent<Collider>().isTrigger = true;
-                StartCoroutine(ThrowObjectDelayed());
+                //_coinRegister.IsCoinThrown = false;
+                if(!_mover.IsDropped)
+                    StartCoroutine(ThrowObjectDelayed());
             }
         }
 
-        private IEnumerator ThrowObjectDelayed()
+        public void DropObject()
         {
-            yield return new WaitForSeconds(throwObjectDelay);
+            GetComponent<Collider>().isTrigger = true;
             _toyTransform.SetParent(toysParent);
             _toyTransform.GetComponent<Rigidbody>().isKinematic = false;
             _toyTransform.GetComponent<Collider>().isTrigger = false;
-            _coinRegister.IsCoinThrown = false;
             _toyTransform = null;
+        }
+
+        public IEnumerator ThrowObjectDelayed()
+        {
+            yield return new WaitForSeconds(throwObjectDelay);
+            DropObject();
         }
     }
 }

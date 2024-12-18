@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Components.GameMachineComponents
 {
@@ -22,6 +23,9 @@ namespace Components.GameMachineComponents
  
         [Space(10)]
         [SerializeField] private Transform clawBasePoint;
+        
+        [Space(10)] [Range(0, 1)] [SerializeField]
+        private float dropChance;
 
         private ClawObjectHandler _objectHandler;
         private HandleHandler _handle;
@@ -30,6 +34,8 @@ namespace Components.GameMachineComponents
         private bool _isCatching;
         public bool HasFallen { get; set; }
         private bool _isRising;
+        private bool _isChanceCounted;
+        public bool IsDropped { get; private set; }
 
         private void Start()
         {
@@ -43,7 +49,10 @@ namespace Components.GameMachineComponents
 
         private void CatchToy()
         {
+            IsDropped = false;
             _isCatching = true;
+            _isChanceCounted = false;
+            GetComponent<Collider>().isTrigger = false;
         }
 
         private IEnumerator CatchDelayed()
@@ -58,6 +67,13 @@ namespace Components.GameMachineComponents
             {
                 if (_objectHandler.IsCatched)
                 {
+                    if (Random.value <= dropChance && !IsDropped && !_isChanceCounted)
+                    {
+                        IsDropped = true;
+                        StartCoroutine(_objectHandler.ThrowObjectDelayed());
+                    }
+
+                    _isChanceCounted = true;
                     transform.position = Vector3.MoveTowards(transform.position, clawBasePoint.position,
                         Time.deltaTime * movingSpeed);
                     return;
@@ -81,6 +97,7 @@ namespace Components.GameMachineComponents
                         {
                             _isCatching = false;
                             _coinRegister.IsCoinThrown = false;
+                            GetComponent<Collider>().isTrigger = false;
                             HasFallen = false;
                         }
                     }
@@ -108,6 +125,8 @@ namespace Components.GameMachineComponents
                 }
             }
         }
+        
+        
 
         private void OnDestroy()
         {

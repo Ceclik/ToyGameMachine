@@ -26,6 +26,7 @@ namespace Components.GameMachineComponents
                 other.transform.position = winPlace.transform.position;
                 _coinRegister.IsCoinThrown = false;
                 _movementHandler.HasFallen = false;
+                other.rigidbody.AddTorque(1, 0, 0);
             }
         }
     }

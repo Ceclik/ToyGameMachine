@@ -103,7 +103,8 @@ namespace Components.GameMachineComponents
                         if (transform.position.y >= maxYPosition)
                         {
                             _isCatching = false;
-                            _coinRegister.IsCoinThrown = false;
+                            if(!_objectHandler.HasToy)
+                                _coinRegister.IsCoinThrown = false;
                             GetComponent<Collider>().isTrigger = false;
                             HasFallen = false;
                         }

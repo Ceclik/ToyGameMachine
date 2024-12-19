@@ -1,4 +1,5 @@
-﻿using Components.CharacterComponents;
+﻿using System;
+using Components.CharacterComponents;
 using TMPro;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace Components.GameMachineComponents
     {
         [SerializeField] private Transform winPlace;
         [SerializeField] private TextMeshProUGUI toysText;
+        [SerializeField] private GameObject deathMenu;
 
         private int _counter;
         private GameObject _previousToy;
@@ -25,6 +27,7 @@ namespace Components.GameMachineComponents
         private CoinRegisterHandler _coinRegister;
         private ClawMovementHandler _movementHandler;
         private CoinsHandler _coins;
+        private bool _isLost;
 
         private void UpdateToysText()
         {
@@ -57,6 +60,17 @@ namespace Components.GameMachineComponents
                 _movementHandler.HasFallen = false;
                 _coins.CoinsAmount += 2;
                 other.rigidbody.AddTorque(5, 0, 0);
+            }
+        }
+
+        private void Update()
+        {
+            if (!_isLost && _coins.CoinsAmount == 0 && !_coinRegister.IsCoinThrown)
+            {
+                //Time.timeScale = 0;
+                deathMenu.SetActive(true);
+                deathMenu.GetComponent<DeathMenuHandler>().ToysAmount = ToysCount;
+                Cursor.lockState = CursorLockMode.Confined;
             }
         }
     }

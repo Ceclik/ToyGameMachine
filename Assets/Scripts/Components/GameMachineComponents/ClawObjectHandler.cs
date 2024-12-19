@@ -13,6 +13,7 @@ namespace Components.GameMachineComponents
         private CoinRegisterHandler _coinRegister;
         private ClawMovementHandler _mover;
         public bool IsCatched { get; private set; }
+        public bool HasToy { get; private set; }
 
 
         private void Start()
@@ -27,6 +28,7 @@ namespace Components.GameMachineComponents
             {
                 Debug.Log($"Toy with name {other.gameObject.name} has been catched");
                 IsCatched = true;
+                HasToy = true;
                 _toyTransform = other.transform;
                 _toyTransform.SetParent(transform);
                 _toyTransform.GetComponent<Rigidbody>().isKinematic = true;
@@ -49,6 +51,7 @@ namespace Components.GameMachineComponents
         public void DropObject()
         {
             GetComponent<Collider>().isTrigger = true;
+            HasToy = false;
             _toyTransform.SetParent(toysParent);
             _toyTransform.GetComponent<Rigidbody>().isKinematic = false;
             _toyTransform.GetComponent<Collider>().isTrigger = false;

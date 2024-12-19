@@ -9,6 +9,7 @@ namespace Components.GameMachineComponents
         private ObjectsHandler _objectsHandler;
         private ActionTextHandler _actionText;
         private CoinsHandler _coins;
+        private AudioSource _sound;
 
         private void Start()
         {
@@ -16,6 +17,7 @@ namespace Components.GameMachineComponents
             _objectsHandler = character.GetComponent<ObjectsHandler>();
             _actionText = character.GetComponent<ActionTextHandler>();
             _coins = character.GetComponent<CoinsHandler>();
+            _sound = GetComponent<AudioSource>();
         }
 
         private void Update()
@@ -26,6 +28,7 @@ namespace Components.GameMachineComponents
             {
                 IsCoinThrown = true;
                 _coins.CoinsAmount--;
+                _sound.Play();
                 _actionText.HideActionText();
             }
         }

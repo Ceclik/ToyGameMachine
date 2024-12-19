@@ -410,10 +410,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -480,10 +476,6 @@ PrefabInstance:
     - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
       propertyPath: m_Name
       value: toymonkey (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -723,10 +715,6 @@ PrefabInstance:
     - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
       propertyPath: m_Name
       value: toymonkey (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1148,10 +1136,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toymonkey (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1307,10 +1291,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toybear (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.322
@@ -1413,10 +1393,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1433,10 +1409,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1535,10 +1507,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypenguin (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1595,10 +1563,6 @@ PrefabInstance:
     - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
       propertyPath: m_Name
       value: toypig (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1677,10 +1641,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toymonkey (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1748,10 +1708,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypig (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1809,10 +1765,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypenguin (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1834,10 +1786,6 @@ PrefabInstance:
     - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_Name
       value: toybunny (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1935,10 +1883,6 @@ PrefabInstance:
     - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
       propertyPath: m_Name
       value: toypig (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2104,10 +2048,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2139,10 +2079,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2352,10 +2288,6 @@ PrefabInstance:
     - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
       propertyPath: m_Name
       value: toypig (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2741,10 +2673,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypenguin (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2801,10 +2729,6 @@ PrefabInstance:
     - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
       propertyPath: m_Name
       value: toypenguin (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2898,10 +2822,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3010,10 +2930,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3030,10 +2946,6 @@ PrefabInstance:
     - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_Name
       value: toybunny (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3096,10 +3008,6 @@ PrefabInstance:
     - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_Name
       value: toybunny (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3198,10 +3106,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypig (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3264,10 +3168,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypig (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3289,10 +3189,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3351,10 +3247,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toybear (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.322
@@ -3411,10 +3303,6 @@ PrefabInstance:
     - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_Name
       value: toybunny (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3513,10 +3401,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toymonkey (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3533,10 +3417,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3640,14 +3520,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
+    - target: {fileID: 7072694369489091369, guid: 7def7532f21db6943a22d1398585418a, type: 3}
+      propertyPath: m_Volume
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072694369489091369, guid: 7def7532f21db6943a22d1398585418a, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072694369489091369, guid: 7def7532f21db6943a22d1398585418a, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1151245684}
   m_SourcePrefab: {fileID: 100100000, guid: 7def7532f21db6943a22d1398585418a, type: 3}
 --- !u!1001 &739973986
 PrefabInstance:
@@ -3701,10 +3592,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3721,10 +3608,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3918,10 +3801,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4146,10 +4025,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypig (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4330,10 +4205,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypenguin (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4390,10 +4261,6 @@ PrefabInstance:
     - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
       propertyPath: m_Name
       value: toymonkey (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4549,10 +4416,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypig (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4681,10 +4544,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4839,6 +4698,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1017469500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
+  m_PrefabInstance: {fileID: 739472908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1020371246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4891,10 +4755,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4944,7 +4804,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042153949}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.8289163, g: 0.35248306, b: 0.8396226, a: 1}
@@ -5060,10 +4920,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toymonkey (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5080,10 +4936,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5182,10 +5034,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypenguin (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5268,10 +5116,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypenguin (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5282,6 +5126,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3722487300629072141, guid: 7def7532f21db6943a22d1398585418a, type: 3}
   m_PrefabInstance: {fileID: 739472908}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1151245684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017469500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1377bf91885435c91ba160982e5b939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1199398451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5333,10 +5189,6 @@ PrefabInstance:
     - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
       propertyPath: m_Name
       value: toysheep (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5502,10 +5354,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toymonkey (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5527,10 +5375,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6170,10 +6014,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6330,7 +6170,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357397163}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6373,7 +6213,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6441,10 +6281,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypig (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6471,10 +6307,6 @@ PrefabInstance:
     - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_Name
       value: toybunny (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6573,10 +6405,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypig (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6638,10 +6466,6 @@ PrefabInstance:
     - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
       propertyPath: m_Name
       value: toypig (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6835,10 +6659,6 @@ PrefabInstance:
     - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
       propertyPath: m_Name
       value: toymonkey (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7398,10 +7218,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toybunny (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.913
@@ -7503,10 +7319,6 @@ PrefabInstance:
     - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
       propertyPath: m_Name
       value: toysheep (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7632,6 +7444,7 @@ GameObject:
   - component: {fileID: 1607322312}
   - component: {fileID: 1607322313}
   - component: {fileID: 1607322314}
+  - component: {fileID: 1607322315}
   m_Layer: 0
   m_Name: ClawParent
   m_TagString: Claw
@@ -7714,6 +7527,103 @@ MonoBehaviour:
   clawBasePoint: {fileID: 1889209516}
   throwObjectDelay: 1
   toysParent: {fileID: 578497477}
+--- !u!82 &1607322315
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607322310}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: abd901d56c972354795c8ced1895a870, type: 3}
+  m_Resource: {fileID: 8300000, guid: abd901d56c972354795c8ced1895a870, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.201
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1634749144 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3722487300629072141, guid: 7def7532f21db6943a22d1398585418a, type: 3}
@@ -7866,10 +7776,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7931,10 +7837,6 @@ PrefabInstance:
     - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
       propertyPath: m_Name
       value: toypenguin (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7998,10 +7900,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toymonkey (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8022,6 +7920,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1741031539}
   - component: {fileID: 1741031540}
+  - component: {fileID: 1741031541}
+  - component: {fileID: 1741031542}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -8051,7 +7951,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741031538}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 0.8584906, g: 0.81929123, b: 0.7329566, a: 1}
@@ -8105,6 +8005,120 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!82 &1741031541
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741031538}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 371c42f19d9fc8544a8708dd31dd20ed, type: 3}
+  m_Resource: {fileID: 8300000, guid: 371c42f19d9fc8544a8708dd31dd20ed, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1741031542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741031538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a78b8305db433a92459e7788e92bb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondAudioSound: {fileID: 8300000, guid: df6b3d2bc8e6a664dbdadc3637af7d85, type: 3}
+  winLight: {fileID: 1357397165}
+  backLight: {fileID: 1042153951}
+  lightTurnOnDelay: 2
+  secondSoundTurnOnDelay: 2
 --- !u!1 &1760639510
 GameObject:
   m_ObjectHideFlags: 0
@@ -8336,10 +8350,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toypig (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8356,10 +8366,6 @@ PrefabInstance:
     - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_Name
       value: toybear (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8462,10 +8468,6 @@ PrefabInstance:
     - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
       propertyPath: m_Name
       value: toypig (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8576,10 +8578,6 @@ PrefabInstance:
     - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_Name
       value: toybunny (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8906,10 +8904,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toybunny (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.913
@@ -9113,10 +9107,6 @@ PrefabInstance:
     - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
       propertyPath: m_Name
       value: toypenguin (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9452,10 +9442,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toymonkey (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9472,10 +9458,6 @@ PrefabInstance:
     - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_Name
       value: toybunny (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9535,6 +9517,7 @@ GameObject:
   - component: {fileID: 3490957662251259833}
   - component: {fileID: 7933360287195652706}
   - component: {fileID: 7933360287195652705}
+  - component: {fileID: 7933360287195652707}
   m_Layer: 0
   m_Name: CoinChecker
   m_TagString: CoinChecker
@@ -10028,10 +10011,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toybear
       objectReference: {fileID: 0}
-    - target: {fileID: 1760954730999087405, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     - target: {fileID: 8756385276041736484, guid: 99508867481f6794abfb20fc2b1d787f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.481
@@ -10162,10 +10141,6 @@ PrefabInstance:
     - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_Name
       value: toybunny
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645696219631221331, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4759342046077515862, guid: f3f8dfae686f2004881ead6bc1b84576, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10386,10 +10361,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: toysheep
       objectReference: {fileID: 0}
-    - target: {fileID: 6557784411986277517, guid: 7def7532f21db6943a22d1398585418a, type: 3}
-      propertyPath: m_TagString
-      value: Toy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10446,10 +10417,6 @@ PrefabInstance:
     - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
       propertyPath: m_Name
       value: toypig
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784500364480141033, guid: 7c11c12fe9e7d88408af6ecf2128a303, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10523,10 +10490,6 @@ PrefabInstance:
     - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
       propertyPath: m_Name
       value: toymonkey
-      objectReference: {fileID: 0}
-    - target: {fileID: 8923076093614659764, guid: 1b8957b2ea15c474bb246e2dc9576943, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11170,6 +11133,7 @@ GameObject:
   - component: {fileID: 440601797306561773}
   - component: {fileID: 7876103835046879032}
   - component: {fileID: 7876103835046879033}
+  - component: {fileID: 7876103835046879034}
   m_Layer: 0
   m_Name: ButtonMovingPart
   m_TagString: Button
@@ -11213,6 +11177,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionButtonLight: {fileID: 1821173790}
   lightTime: 1
+--- !u!82 &7876103835046879034
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7876103835046879031}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6e994eabe7541924fa8089ef5281ecfd, type: 3}
+  m_Resource: {fileID: 8300000, guid: 6e994eabe7541924fa8089ef5281ecfd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!33 &7933360287195652704
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11254,6 +11315,103 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 2.0282433, z: 2}
   m_Center: {x: 0, y: -0.014121402, z: 0.00000094207184}
+--- !u!82 &7933360287195652707
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50660278582956003}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 80af0ffb8683f8741900b434df5f1412, type: 3}
+  m_Resource: {fileID: 8300000, guid: 80af0ffb8683f8741900b434df5f1412, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!23 &8032750205917473516
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11349,10 +11507,6 @@ PrefabInstance:
     - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
       propertyPath: m_Name
       value: toypenguin
-      objectReference: {fileID: 0}
-    - target: {fileID: 8455123852112541898, guid: 5295fd55882a60c4a8e90ab1ca980d68, type: 3}
-      propertyPath: m_TagString
-      value: Toy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

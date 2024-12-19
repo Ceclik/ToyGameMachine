@@ -1,5 +1,4 @@
-﻿using System;
-using Components.CharacterComponents;
+﻿using Components.CharacterComponents;
 using TMPro;
 using UnityEngine;
 

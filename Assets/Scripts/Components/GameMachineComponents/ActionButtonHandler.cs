@@ -13,12 +13,14 @@ namespace Components.GameMachineComponents
         private ObjectsHandler _objectsHandler;
         private ActionTextHandler _actionText;
         private CoinRegisterHandler _coinRegister;
+        private AudioSource _sound;
 
         public delegate void HandleActionButton();
         public event HandleActionButton OnActionButtonClick;
 
         private void Start()
         {
+            _sound = GetComponent<AudioSource>();
             GameObject character = GameObject.FindGameObjectWithTag("Player");
             _objectsHandler = character.GetComponent<ObjectsHandler>();
             _actionText = character.GetComponent<ActionTextHandler>();
@@ -36,6 +38,7 @@ namespace Components.GameMachineComponents
                 IsMoving = true;
                 actionButtonLight.enabled = true;
                 OnActionButtonClick?.Invoke();
+                _sound.Play();
                 StartCoroutine(LightButton());
             }
         }

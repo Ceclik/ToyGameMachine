@@ -35,10 +35,13 @@ namespace Components.GameMachineComponents
         public bool HasFallen { get; set; }
         private bool _isRising;
         private bool _isChanceCounted;
+
+        private AudioSource _sound;
         public bool IsDropped { get; private set; }
 
         private void Start()
         {
+            _sound = GetComponent<AudioSource>();
             _objectHandler = GetComponent<ClawObjectHandler>();
             _coinRegister = GameObject.FindGameObjectWithTag("CoinChecker").GetComponent<CoinRegisterHandler>();
             _actionButton = GameObject.FindGameObjectWithTag("Button").GetComponent<ActionButtonHandler>();
@@ -84,6 +87,8 @@ namespace Components.GameMachineComponents
                     if (!HasFallen)
                     {
                         transform.Translate(new Vector3(0.0f, -Time.deltaTime * fallingSpeed));
+                        if(!_sound.isPlaying)
+                            _sound.Play();
                         if (transform.position.y <= minYPosition)
                         {
                             HasFallen = true;
@@ -93,6 +98,8 @@ namespace Components.GameMachineComponents
                     else if (_isRising)
                     {
                         transform.Translate(new Vector3(0.0f, Time.deltaTime * fallingSpeed));
+                        if(!_sound.isPlaying)
+                            _sound.Play();
                         if (transform.position.y >= maxYPosition)
                         {
                             _isCatching = false;
@@ -109,18 +116,30 @@ namespace Components.GameMachineComponents
                     if (Input.GetKey(KeyCode.W) && transform.position.x + translation < maxXValue)
                     {
                         transform.Translate(new Vector3(translation, 0.0f, 0.0f));
+                        if(!_sound.isPlaying)
+                            _sound.Play();
                     }
                     else if (Input.GetKey(KeyCode.S) && transform.position.x - translation > minXValue)
                     {
                         transform.Translate(new Vector3(-translation, 0.0f, 0.0f));
+                        if(!_sound.isPlaying)
+                            _sound.Play();
                     }
                     else if (Input.GetKey(KeyCode.A) && transform.position.z + translation < maxZValue)
                     {
                         transform.Translate(new Vector3(0.0f, 0.0f, translation));
+                        if(!_sound.isPlaying)
+                            _sound.Play();
                     }
                     else if (Input.GetKey(KeyCode.D) && transform.position.z - translation > minZValue)
                     {
                         transform.Translate(new Vector3(0.0f, 0.0f, -translation));
+                        if(!_sound.isPlaying)
+                            _sound.Play();
+                    }
+                    else
+                    {
+                        _sound.Stop();
                     }
                 }
             }
